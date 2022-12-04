@@ -1,0 +1,10 @@
+cd C:\Users\cm\Desktop\shrouq java\Task5; "JAVA_HOME=C:\\Program Files\\Java\\jdk-19" cmd /c "\"C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.task5.Task5 \"-Dexec.executable=C:\\Program Files\\Java\\jdk-19\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" org.codehaus.mojo:exec-maven-plugin:3.0.0:exec"
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+------------------------< com.mycompany:Task5 >-------------------------
+Building Task5 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:3.0.0:exec (default-cli) @ Task5 ---
+Enter The Text with comma(,): 
